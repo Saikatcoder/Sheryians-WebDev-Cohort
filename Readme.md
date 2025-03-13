@@ -22,3 +22,11 @@ arr.forEach(num => {
 
 console.log(arr);
 ## **👉 Kya yeh infinite loop me chala jayega ya nahi?**
+
+ **Kya Hoga?**
+---✅ JavaScript me forEach() original array pe loop chalata hai, lekin agar tum usi array me naye elements add karte jaoge (push() use karke),     to  loop kabhi khatam hi nahi hoga!
+
+🔸 Step by Step Execution: 1️⃣ forEach() shuru me arr = [1, 2, 3] pe chalega
+2️⃣ 1 ko arr.push(1 * 2); → arr ban gaya [1, 2, 3, 2]
+3️⃣ 2 pe loop chala, arr.push(2 * 2); → arr = [1, 2, 3, 2, 4]
+4️⃣ Loop naye elements pe bhi chal raha hai, isliye kabhi khatam nahi hoga! (Infinite loop ⚠️)
