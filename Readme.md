@@ -1,5 +1,6 @@
-**Q1: Yeh code ka output kya hoga? 🤔**
 ## js..
+
+**Q1: Yeh code ka output kya hoga? 🤔**
 let arr = [1, 2, 3];
 
 arr.map((num, index, a) => {
