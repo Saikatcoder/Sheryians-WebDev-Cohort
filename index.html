@@ -3,10 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Countdown Timer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #timer {
+            font-size: 2rem;
+            color: #ff5733;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
+
+    <h1>Countdown Timer</h1>
     
-    <script src="ans.js"></script>
+    <input type="number" id="input" placeholder="Enter time in seconds">
+    <button onclick="startButton()">Start</button>
+    <button onclick="resetTimer()">Reset</button>
+    <button onclick="pausebutton()">pausebutton</button>
+
+    <div id="timer"></div>
+
+   <script src="app.js"></script>
 </body>
 </html>
