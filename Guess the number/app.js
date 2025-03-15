@@ -66,13 +66,14 @@ button.addEventListener("click", () => {
     if (attempts >= maxAttempts) {
         numberDisplay.innerHTML = `💀 Game Over! The number was ${randomNumber}`;
         button.disabled = true; 
-        inputbox.disabled = true;  // ✅ Disable input box on game over
-        document.body.style.backgroundColor = "red"; // ✅ Red background when user loses
+        inputbox.disabled = true;  
+        document.body.style.backgroundColor = "red"; 
     }
 });
 
 // Reset Game
 resetButton.addEventListener('click', () => {
+
     console.log('click');
     attempts = 0;
     randomNumber = randomNumbefunction();
