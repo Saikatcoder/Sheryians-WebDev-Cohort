@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop Task Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f4f4f4;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+        .column {
+            width: 200px;
+            min-height: 300px;
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .task {
+            background: lightblue;
+            padding: 10px;
+            margin: 10px 0;
+            cursor: grab;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column" id="todo" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3>To-Do</h3>
+            <div class="task" draggable="true" ondragstart="drag(event)" id="task1">Task 1</div>
+            <div class="task" draggable="true" ondragstart="drag(event)" id="task2">Task 2</div>
+        </div>
+        <div class="column" id="inprogress" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3>In Progress</h3>
+        </div>
+        <div class="column" id="done" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <h3>Done</h3>
+        </div>
+    </div>
+
+    <script>
+        function allowDrop(event) {
+            event.preventDefault();
+        }
+
+        function drag(event) {
+            event.dataTransfer.setData("text", event.target.id);
+        }
+
+        function drop(event) {
+            event.preventDefault();
+            let data = event.dataTransfer.getData("text");
+            event.target.appendChild(document.getElementById(data));
+            saveData();
+        }
+
+        function saveData() {
+            let columns = document.querySelectorAll(".column");
+            let tasks = {};
+            columns.forEach(column => {
+                tasks[column.id] = Array.from(column.children).map(task => task.id);
+            });
+            localStorage.setItem("taskData", JSON.stringify(tasks));
+        }
+
+        function loadData() {
+            let tasks = JSON.parse(localStorage.getItem("taskData"));
+            if (!tasks) return;
+            for (let columnId in tasks) {
+                let column = document.getElementById(columnId);
+                tasks[columnId].forEach(taskId => {
+                    let task = document.getElementById(taskId);
+                    if (task) column.appendChild(task);
+                });
+            }
+        }
+        window.onload = loadData;
+    </script>
+</body>
+</html>

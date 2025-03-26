@@ -88,3 +88,5 @@ resetButton.addEventListener('click', () => {
     inputbox.disabled = false;
     document.body.style.backgroundColor = ""; // ✅ Reset background color
 });
+
+
