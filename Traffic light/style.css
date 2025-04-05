@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.traffic-light {
+    width: 100px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.light {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+    transition: background 0.5s;
+}
+
+.red.active {
+    background-color: red;
+}
+.yellow.active {
+    background-color: yellow;
+}
+.green.active {
+    background-color: green;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    background-color: greenyellow;
+    letter-spacing: 5px;
+    color: blue;
+}
+.time{
+    color: aliceblue;
+    font-size: 30px;
+}

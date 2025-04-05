@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f8f8; /* Light background */
+}
+
+.mainbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);  /* Proper shadow */
+    width: 90%;  /* Default width for mobile */
+    max-width: 400px; /* Max width for laptop */
+    height: auto;  /* Adjust height automatically */
+    padding: 20px;
+    background: white;
+}
+
+.imgbox {
+    width: 100%;
+    height: 50vh; /* Fixed height for consistency */
+    overflow: hidden;
+}
+
+.imgbox img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.friend p {
+    font-size: 1.8rem; /* Slightly smaller */
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(43, 42, 42);
+    letter-spacing: 5px; /* Reduced spacing */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.friend h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.friend button {
+    border: none;
+    width: 100%;
+    height: 40px; /* Increased button height */
+    background-color: rgb(38, 38, 247);
+    color: aliceblue;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.friend button:hover {
+    background-color: rgb(25, 25, 200);
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 600px) {
+    .mainbox {
+        width: 45vw;
+        height: 40vh;
+    }
+
+    .friend p {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+}

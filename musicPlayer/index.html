@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Loder icon -->
+     <div class="lodin">
+        <!-- <img src="./Images/loader.gif" alt=""> -->
+     </div>
+     <!-- Hero Section Header -->
+     <section>
+        <aside>
+            <div class="logo">
+                <img src="Images/logo.png" alt="logo">
+                <img src="./Images/mini_logo.png" alt="" class="small_screen_logo">
+            </div>
+            <div class="small-logo">
+                <img src="./Images/mini_logo.png" alt="minilogo" class="small-logo">
+            </div>
+            <div class="music-menu">
+                <h2>Browse Music</h2>
+                <ul>
+                    <li>
+                        <a href="index.html" class="active_link">
+                            <span class="icon icon-discover"></span>
+                            <p>Discover</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-guitar"></i>
+                        <p>Artists</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-compact-disc"></i>
+                        <p>Album</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-radio"></i>
+                        <p>Stations</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-music "></i>
+                        <p>Music</p>
+                        </a>
+                    </li>
+                </ul>
+                <h2>Your Music</h2>
+                <ul>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-download"></i>
+                        <p>Download</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <p>Purchased</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-heart"></i>
+                        <p>Favourites</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="index.html">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
+                        <p>History</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span class="sidebar-btn">
+                <i class="fa-solid fa-arrow-left sidelogo"></i>
+            </span>
+        </aside>
+        <!-- Main section -->
+         <div class="hero-container">
+            <div class="hero-top">
+                <div class="hero-top-col">
+                    <div class="searchbox">
+                        <input type="text" placeholder="Search for sign,Artist,playlist.... ">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <span class="notification_icon"></span>
+                </div>
+                <div class="user-info">
+                    <div class="user-img">
+                        <img src="Images/proflile.jpg" alt="">
+                    </div>
+                    <div class="user-login-wrapper">
+                        <h2>Hello Saikat <i class="fa-solid fa-angle-down"></i> </h2>
+                        <ul class="user-wrapper-dropdown">
+                            <li>
+                                <a href="#">
+                                    <span class="icon icon_profile"></span>
+                                    <p>Profile</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="icon icon_logout"></span>
+                                    <p>Logout</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bars">
+                        <i class="ri-menu-2-fill"></i>
+                    </div>
+                </div>
+            </div>
+         </div>
+
+         <div class="song-container">
+            <div class="songs-tabs">
+                <h2 class="tab1 active-song-list">Today Top Picks</h2>
+                <h2 class="tab2">Tranding Songs</h2>
+                <h2 class="tab2">New Release</h2>
+            </div>
+            <div class="song-wrapper song-wrapper1">
+                <div class="song-col">
+                    <div class="song-info">
+                        <img src="Images/play_songlist.svg" alt="" class="play-img">
+                        <span>01</span>
+                        <div class="song-box">
+                            <img src="Images/s1.jpg" alt="">
+                            <div class="song-det">
+                                <h2>Walking Promises</h2>
+                                <p>Arigit Sing, chala ja ta hu</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="song-icon-time">
+                        <i class="ri-heart-2-line">
+                            <p>04:25</p>
+                            <div class="song-option">
+                                <i class="ri-more-2-fill"></i>
+                                <div class="song-option-dropdown">
+                                    <div class="song-option-box">
+                                        <span class="icon fav_option_icon"></span>
+                                        <h3>Favorite</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="icon download_option_icon"></span>
+                                        <h3>Download</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="icon add_pl_option_icon"></span>
+                                        <h3>Add to playlist</h3>
+                                    </div>
+                                    <div class="song-option-box">
+                                        <span class="icon share_option_icon"></span>
+                                        <h3>Share</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </i>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js" integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="app.js"></script>
+</body>
+</html>
