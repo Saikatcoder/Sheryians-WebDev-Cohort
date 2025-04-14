@@ -3,12 +3,12 @@
     <img width = "800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/chai-cohort.png">
   <p>
 </a>
-<h1 align="center">Chai Aur Cohort</h1>
+<h1 align="center">Job Ready AI Powered Cohort</h1>
 
 <!-- Social Media Links -->
 <div align= center>
 
-[![Twitter Badge](https://img.shields.io/badge/-@devwithjay-1ca0f1?style=social&labelColor=red&logo=x&logoColor=black&link=https://twitter.com/devwithjay)](https://twitter.com/devwithjay)&nbsp;&nbsp;[![Linkedin Badge](https://img.shields.io/badge/@devwithjay-0e76a8)](https://www.linkedin.com/in/devwithjay/)&nbsp;&nbsp;[![Mail Badge](https://img.shields.io/badge/-hello@devwithjay.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=pink)](mailto:hello@devwithjay.com)&nbsp;&nbsp;[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)&nbsp;&nbsp;[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![Twitter Badge](https://img.shields.io/badge/-@devwithjay-1ca0f1?style=social&labelColor=red&logo=x&logoColor=black&link=https://twitter.com/devwithjay)]()&nbsp;&nbsp;[![Linkedin Badge](https://img.shields.io/badge/@devwithjay-0e76a8)](linkedin.com/in/saikat-dutta-1a952020a)&nbsp;&nbsp;[![Mail Badge](https://img.shields.io/badge/-hello@devwithjay.com-c0392b?style=flat&labelColor=c0392b&logo=gmail&logoColor=pink)](mailto:)&nbsp;&nbsp;[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)&nbsp;&nbsp;[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 
 </div>
 
