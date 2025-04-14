@@ -3,6 +3,9 @@
   <img width="800px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./Screenshot 2025-04-14 100804.png">
 </p>
 
+ **Web Development Cohort**
+ Welcome to my **Web Development Journey!**  This repository is a collection of my projects, challenges, notes, and blogs as I progress through the **Sheryains Coding School- Web Development Cohort** under the guidance of my amazing mentors, [Harsh Bhaiy](https://linkedin.com/in/harshvandanasharma) and [Sarthak Bhaiya](https://linkedin.com/in/sarthak-sharma7)and [Ali Bhaiya](https://linkedin.com/in/mohd-ali-ansari-044458200)
+
 <h1 align="center">🚀 Job Ready AI Powered Cohort</h1>
 
 <!-- Social Media Links -->
@@ -50,17 +53,34 @@ This repository documents my in-depth learning journey — from basic HTML/CSS t
 
 ---
 
-## 🤝 Contributing
-
-Contributions are always welcome!  
-See [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
-
----
-
 ## 📜 License
 
 This project is licensed under the [MIT License](./LICENSE).  
 Feel free to learn, build upon, and share my work!
 
 ---
+
+
+## Repository Structure
+This repository is neatly organized into weekly progress updates, including:
+
+- **Assignments & Challenges** – Hands-on tasks and mini-projects to reinforce learning.
+
+- **Blogs** – My insights and key takeaways from each topic.
+
+- **Class Notes** – Stored as Eraser links for easy reference.
+
+**Each week's work is stored in its respective folder for structured and easy navigation.**
+
+## How to Use This Repository
+- Browse through the weekly folders to see my work.
+
+- Read my blogs to understand core web development concepts.
+
+- Check out class notes for key learnings from the cohort.
+
+- Explore assignments and challenges to see my hands-on progress.
+
+- Feel free to **contribute** or **share feedback** to help me grow!
+
 
