@@ -7,7 +7,9 @@ This repository contains a clean, responsive landing page built using **HTML**, 
 ## ✨ Preview
 
 <p align="center">
-  <img src="./daniel-j-schwarz-bXRxaGX9MsY-unsplash.jpg" width="600" alt="Preview Screenshot">
+  <img src="./Screenshot 2025-04-14 134319.png" width="600" alt="Preview Screenshot">
+  <img src="./Screenshot 2025-04-14 134405.png" width="600" alt="Preview Screenshot">
+  <img src="./Screenshot 2025-04-14 134421.png" width="600" alt="Preview Screenshot">
 </p>
 
 ---
