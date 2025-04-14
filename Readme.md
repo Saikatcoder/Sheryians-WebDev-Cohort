@@ -9,8 +9,8 @@
 <div align="center">
 
   [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/yourusername)
-  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yourname@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saikat-dutta-1a952020a)
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saikat2018dutta18@gmail.com)
 
 </div>
 
@@ -64,13 +64,3 @@ Feel free to learn, build upon, and share my work!
 
 ---
 
-### ✅ Notes
-
-- Make sure your image path (`./assets/chai-cohort.png`) is correct and the image is **committed to the repository**.
-- Replace these placeholders:
-  - `yourusername` with your real Twitter/LinkedIn handle
-  - `yourname@gmail.com` with your real Gmail
-
----
-
-Would you like me to generate a **preview version** of this README for your GitHub repo? Or want help uploading the image correctly?
