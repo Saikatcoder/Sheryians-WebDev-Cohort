@@ -99,3 +99,10 @@ function leftRotateByOne(arr) {
     // Write your logic here
     
 }
+
+
+// Linear Search in Array
+function linearSearch(arr, target) {
+    // Write your logic here
+    
+}
