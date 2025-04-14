@@ -4,6 +4,7 @@
 </p>
 
  **Web Development Cohort**
+
  Welcome to my **Web Development Journey!**  This repository is a collection of my projects, challenges, notes, and blogs as I progress through the **Sheryains Coding School- Web Development Cohort** under the guidance of my amazing mentors, [Harsh Bhaiy](https://linkedin.com/in/harshvandanasharma) and [Sarthak Bhaiya](https://linkedin.com/in/sarthak-sharma7)and [Ali Bhaiya](https://linkedin.com/in/mohd-ali-ansari-044458200)
 
 <h1 align="center">🚀 Job Ready AI Powered Cohort</h1>
@@ -51,7 +52,43 @@ This repository documents my in-depth learning journey — from basic HTML/CSS t
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – logic & interactivity
 - [DSA (Data Structures & Algorithms)](https://en.wikipedia.org/wiki/Data_structure) – problem-solving & logic building
 
+## 🧠 DSA Practice
+
+> Practicing DSA with JavaScript to build strong logic for interviews
+
+| Topic       | Problems Solved |
+|-------------|-----------------|
+| Arrays      | ✅✅✅✅✅           |
+| Strings     | ✅✅✅✅✅           |
+| Patterns    | ✅✅✅              |
+| Sorting     | ✅✅               |
+| 2D Arrays   | ✅✅✅              |
+
+
 ---
+
+## 📁 Folder Structure
+
+```
+├── Basic-Web-Understanding/
+├── CSS-Chllanges/
+├── JavaScript-Fundamentals/
+├── JavaScript_basic_Projects/
+├── DSA-Practice/
+├── Git-and-GitHub/
+├── README.md
+```
+
+## 🎯 Goals
+
+- Crack frontend + full-stack interviews
+- Build strong fundamentals
+- Get internship / remote job 🔍
+- Contribute to open source projects
+
+---
+
+
 
 ## 📜 License
 
@@ -82,5 +119,13 @@ This repository is neatly organized into weekly progress updates, including:
 - Explore assignments and challenges to see my hands-on progress.
 
 - Feel free to **contribute** or **share feedback** to help me grow!
+
+
+> This repo is my public proof of **growth, consistency & curiosity**. Follow along or fork it to start your own journey 💪
+
+
+
+
+
 
 
