@@ -6,13 +6,15 @@
  **Web Development Cohort**
 
  Welcome to my **Web Development Journey!**  This repository is a collection of my projects, challenges, notes, and blogs as I progress through the **Sheryains Coding School- Web Development Cohort** under the guidance of my amazing mentors, [Harsh Bhaiy](https://linkedin.com/in/harshvandanasharma) and [Sarthak Bhaiya](https://linkedin.com/in/sarthak-sharma7)and [Ali Bhaiya](https://linkedin.com/in/mohd-ali-ansari-044458200)
-
+And my favorite instructor, the one and only [Hitesh Choudhary_Sir](linkedin.com/in/hiteshchoudhary) and [Er Saurav Sir
+](
+linkedin.com/in/er-saurav-4318aa21b)
 <h1 align="center">🚀 Job Ready AI Powered Cohort</h1>
 
 <!-- Social Media Links -->
 <div align="center">
 
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+ 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saikat-dutta-1a952020a)
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saikat2018dutta18@gmail.com)
 
