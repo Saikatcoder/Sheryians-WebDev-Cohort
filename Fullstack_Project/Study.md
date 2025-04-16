@@ -2,9 +2,32 @@
 
 [_ms,LMS,CMS,HMS,BMS]
 
-## Password Reset Flow
+### Authaction System
+--Basic UnderSanding of Auth [Databse store Structure]
 
-### Overview
+*name*
+*email*
+*Password*
+*role:User,Admin*
+*Is Verified*
+*PasswordRestToke*
+*PasswordRestExpires*
+*Verification*
+*CreatAt*
+# [Folder_Structure]
+--create new folder name User_model.js 
+--boilar plateCode 
+<!-- if you build other Schema then smilple change the name like [UserSchema : for User, CarSchema:for car, BookSchema:for book] -->
+```
+import mongoose from "mongoose";
+
+const UserSchema = new mongoose.Schema();
+
+export const User = mongoose.model("User",UserSchema);
+
+```
+## Password Reset Flow
+# Overview
 
 - **Frontend** → Sends reset request via email
 - **Backend** → Generates token and sends it to user
