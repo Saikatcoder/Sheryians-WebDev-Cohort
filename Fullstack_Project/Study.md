@@ -5,15 +5,15 @@
 ### Authaction System
 --Basic UnderSanding of Auth [Databse store Structure]
 
-*name*
-*email*
-*Password*
-*role:User,Admin*
-*Is Verified*
-*PasswordRestToke*
-*PasswordRestExpires*
-*Verification*
-*CreatAt*
+**name**
+**email**
+**Password**
+**role:User,Admin**
+**Is Verified**
+**PasswordRestToke**
+**PasswordRestExpires**
+**Verification**
+**CreatAt**
 # [Folder_Structure]
 --create new folder name User_model.js 
 --boilar plateCode 
