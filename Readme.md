@@ -14,7 +14,7 @@ linkedin.com/in/er-saurav-4318aa21b)
 <!-- Social Media Links -->
 <div align="center">
 
-  [![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourusername)
+ 
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/saikat-dutta-1a952020a)
   [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:saikat2018dutta18@gmail.com)
 
