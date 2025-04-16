@@ -10,7 +10,8 @@ app.use(cors({
     allowedHeaders : ['Content-Type','Authorization']
 }))
 
-app.use(express.json())
+app.use(express.json());
+app.use(express.urlencoded({extended:true}))
 
 const app = express()
 const port = process.env.PORT || 4000;

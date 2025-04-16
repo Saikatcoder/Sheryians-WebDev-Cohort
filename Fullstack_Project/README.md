@@ -11,7 +11,23 @@
 
 ``
 **Cors**
-``
+```
+app.use(cors({
+    origin : "http://localhost:3000",
+    methods : ['GET','POST',"DELETE","OPTIONS"],
+    allowedHeaders : ['Content-Type','Authorization']
+}))
+```
+
+
+
+**How to encoded URL**
+
+```
+app.use(express.urlencoded({extended:true}))
+
+```
+
 
 
 ## project-Folder-Structure/
