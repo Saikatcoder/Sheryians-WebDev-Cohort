@@ -26,6 +26,16 @@ const UserSchema = new mongoose.Schema();
 export const User = mongoose.model("User",UserSchema);
 
 ```
+```
+timestam: true //[mongodb automacilly add creatAt, and updateAt]
+```
+# Router folder Boilar plate code
+```import express from "express";
+
+const router = express.Router();
+
+export default router;
+```
 ## Password Reset Flow
 # Overview
 

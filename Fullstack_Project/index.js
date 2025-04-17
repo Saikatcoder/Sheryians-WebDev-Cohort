@@ -3,6 +3,10 @@ import dotenv from "dotenv";
 import cors from "cors"
 import db from "./utils/db.js";
 
+// import all routes
+import userRoute from "./route/user_route.js";
+
+
 // express inilized
 const app = express()
 dotenv.config();
@@ -26,6 +30,8 @@ app.get('/',(req, res)=>{
 // connect to db
 db();
 
+// user Route
+app.use("/api/v1/users", userRoute);
 // listem port
 app.listen(port,()=>{
     console.log(`appp is listening port number${port}`);
