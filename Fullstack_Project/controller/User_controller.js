@@ -13,7 +13,7 @@ export const registerUser = async (req,res)=>{
         });
     }
 
-    // check if user alredy exits in database
+
     try {
      const existingUser = await User.findOne({email})   // check user alredy exits or not
      if(existingUser){
@@ -31,13 +31,13 @@ export const registerUser = async (req,res)=>{
      })
      console.log(user);
      
-     if(!user){ // check user is present or not in databse
+     if(!user){ 
         return res.status(400).json({
             message : "User not Registered"
         })
      }
 
-     // token generate for varification
+   
      const token =  crypto.randomBytes(32).toString("hex");
      console.log(token);
 
@@ -82,9 +82,33 @@ export const registerUser = async (req,res)=>{
 };
 
 
-// const verifyUser = async (req, res)=>{
-//     // get token from url
-//     // validate token
-//     // check token 
+export const verifyUser = async (req, res)=>{
+    // get token from url
+    const {token} = req.params;
+    console.log(token);
+    if(!token){
+        return res.status(400).json({
+            message:"invalid token"
+        })
+    }
+    
 
-// }
+    // validate token
+    const user = await User.findOne({verificationToken:token})
+
+    // find user based on token
+    if(!user){
+        return res.status(400).json({
+            message :"invalid token"
+        })
+    }
+
+    // set isVerified field to true
+    user.isVerified = true;
+
+    // remove verification token
+    user.verificationToken = null;
+    await user.save()
+    // Return response
+
+}

@@ -1,4 +1,4 @@
-import express from "express";
+import express, { response } from "express";
 import dotenv from "dotenv";
 import cors from "cors"
 import db from "./utils/db.js";
@@ -36,6 +36,7 @@ app.use("/api/v1/users", userRoute);
 app.listen(port,()=>{
     console.log(`appp is listening port number${port}`);
 })
+
 
 
 

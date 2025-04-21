@@ -1,4 +1,4 @@
-## What ois stack
+## What is stack
 # primetive -> 
 -- Number,null,undefine, boolen,undefine,undefine,BigInt
 

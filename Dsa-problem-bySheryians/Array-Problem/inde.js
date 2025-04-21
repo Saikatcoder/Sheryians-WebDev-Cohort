@@ -106,3 +106,4 @@ function linearSearch(arr, target) {
     // Write your logic here
     
 }
+

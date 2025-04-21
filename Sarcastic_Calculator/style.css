@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  body {
+    background: #0d0d0d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  #headline {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .main {
+    width: 100%;
+    max-width: 380px;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  .display {
+    padding: 10px 0 20px;
+    text-align: right;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 120px;
+    justify-content: flex-end;
+  }
+  
+  .expression {
+    color: #aaa;
+    font-size: 1.4rem;
+  }
+  
+  .result {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+  }
+  
+  .button button {
+    height: 60px;
+    border: none;
+    border-radius: 12px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  }
+  
+  .button button:hover {
+    background-color: #333;
+  }
+  
+  .button button:active {
+    transform: scale(0.95);
+    background-color: #555;
+  }
+  
+  .button .long {
+    grid-column: span 2;
+    border-radius: 12px;
+    background-color: #0077ff;
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 1.4rem;
+    box-shadow: 0 4px 12px rgba(0, 119, 255, 0.4);
+  }
+  
+  .button .long:hover {
+    background-color: #005bd3;
+  }
+  .button .special{
+    background-color: #a5a5a5;
+    color: #000;
+  }
+  .button .operator{
+    background-color: #ff9f0a;
+    color: white;
+  }

@@ -61,3 +61,38 @@ function CapaitalizeFirstAndLastChar(str){
      }
  return ans;
 }
+
+
+
+
+
+
+
+
+// practice
+function ispalimdorm(str){
+    let isplaimdom = true;
+    let i=0; let j= str.length-1;
+   while(i<j){
+    if(str[i] != str[j]){
+        isPalimdrom = false;
+        break;
+    }
+    i++
+    j--
+   }
+   return isplaimdom ? "yes" : "no"
+}
+
+
+function toggleAlphabet(str){
+    let ans ="";
+    for (let i = 0; i < str.length; i++) {
+        let asci = str.charCodeAt(i);
+        if(asci>=65 && asci<=90){
+            ans += String.fromCharCode(asci+32);
+        }else if(asci >=97 && asci<=122){
+            ans+=String.fromCharCode(asci-32)
+        }
+    }
+}
