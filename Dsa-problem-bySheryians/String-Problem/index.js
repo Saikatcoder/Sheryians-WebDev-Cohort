@@ -96,3 +96,44 @@ function toggleAlphabet(str){
         }
     }
 }
+
+
+
+
+
+function isPalimdrom(str){
+    let PlaimDrom= true;
+    let i=0;
+    let j = str.length;
+    while(i<j){
+        if(str[i] != str[j]){
+            PlaimDrom = false;
+            break;
+        }
+        i++
+        j--
+    }
+    return  PlaimDrom ? "YES" : "NO"
+}
+
+
+
+function ispalimdrom(str){
+    let palimdrom = true;
+    let i = 0 , j= str.length-1
+    while(i<j){
+        if(str[i] != str [j]){
+            palimdrom =false;
+        }
+        i++
+        j--
+    }
+    return palimdrom ? "yes" : "no"
+}
+
+
+
+function togglestr(str){
+    let ans ="";
+    
+}
