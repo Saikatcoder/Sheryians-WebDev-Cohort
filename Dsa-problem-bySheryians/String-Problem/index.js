@@ -137,3 +137,18 @@ function togglestr(str){
     let ans ="";
     
 }
+
+
+function palimdromStr(str){
+    let ispalimdom = true
+    let left = 0;
+    let right = str.length-1;
+  while(left<right){
+    if (str[left] != str[right]) {
+        ispalimdom =false
+    }
+    left++
+    right--
+  }
+  return 
+}

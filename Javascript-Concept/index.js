@@ -35,11 +35,11 @@ for(let i=0; i< arr.length; i++){
 
 //*6. problem use a for loop to count how many teas are caffeinated (excluding "harbal tea")?
 let caffeintea = 0;
-for(let i =0; i<arr.length;i++){
-    if(teas[i] !== "herbel tea"){
-        caffeintea++
-    }
-}
+// for(let i =0; i<arr.length;i++){
+//     if(teas[i] !== "herbel tea"){
+//         caffeintea++
+//     }
+// }
 
 //*7. use a for loop to create a new array with all tea names in uppercase?
 const teas = []
@@ -59,9 +59,55 @@ let longestTea = ""
     for(let i = arr.length-1; i>=0; i--){
         reverseArr.push(arr[i])
     }
-//*
-//*
-//*
+
+//*problem: Create an object represending a type of tea with properties for name , type and caffeine content
+let nameofTeas ={
+    name: "lemon tea",
+    type: "green tea",
+    caffine : "low"
+}
+
+//*problem: Access and print the name and type properties of the tea object.
+// console.log(nameofTeas.name);
+
+//*Problem : Add a new Property origin to the tea object,
+nameofTeas.origin = "Assam"
+
+// *Problem : Cahange the caffeine leve; of the tea object to "Medium"
+nameofTeas.caffine = "medium"
+
+// *Problem: Remove the type property from the tea object
+delete nameofTeas.type
+
+// *Problem: Check if the tea object has a prperty origin 
+
+
+// *Problem: Use a for...in lop to print all property origin,
+for(let teas in nameofTeas){
+    console.log(teas + ":" + nameofTeas[teas]);
+    
+}
+
+// *Problem: Cereate a nested object rperesenting defferent types of teas and their Properties
+const myTeas = {
+    greentea:{
+        name: "green Tea",
+        cup:{
+            one:"1",
+            two: "2"
+        }
+    },
+    blackTea:{
+        name: "Black Tea"
+    }
+}
 
 
 
+// *problem Create a copy of the tea object.
+const teaCopy = {...myTeas}
+// console.log(teaCopy);
+teaCopy.greentea.cup.one =4
+
+const newObj = new Object(myTeas)
+console.log(newObj);

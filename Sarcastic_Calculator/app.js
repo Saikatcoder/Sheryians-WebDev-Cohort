@@ -10,6 +10,11 @@ let messagedisply = "";
 function appendNumber(number){
 
     result = result === '0'? number: result+number;
+    if(result === "0"){
+        result = number
+    }else{
+        result+ number
+    }
     expressionValue = expressionValue + number;
 
     updateDisplay()
