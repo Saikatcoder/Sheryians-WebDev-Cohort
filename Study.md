@@ -41,19 +41,19 @@ function BlockScope(){
 **5. What will be output of: "5" + 1, "5" - 1, "five" * 2**
 
 
-##### 1. Prototype Chain Question:
+### 1. Prototype Chain Question:
 ## Q: Create a simple object Person with a method greet. Then create an object Student that inherits from Person and has its own method study. Demonstrate prototype inheritance.
 
-##### 2. Changing Prototype:
+### 2. Changing Prototype:
 ## Q: Write a program that creates a constructor function Car with a method startEngine. Change the prototype of Car to add a new method stopEngine. Demonstrate how the prototype works by calling the stopEngine method on an instance of Car.
 
-##### 3. Inheritance via Prototypes:
+### 3. Inheritance via Prototypes:
 ## Q: Create a constructor function Employee and Manager. The Manager should inherit from Employee using prototype-based inheritance. Add a work method to Employee and a manage method to Manager. Create an instance of Manager and call both methods.
 
-##### 4. Object.create() vs Constructor Function:
+### 4. Object.create() vs Constructor Function:
 ## Q: Explain how the Object.create() method is different from creating an object using a constructor function. Demonstrate both ways of creating objects and compare how the prototypes are set.
 
-##### 5. Prototype Methods:
+### 5. Prototype Methods:
 ## Q: Given a constructor function Book, create a method getDetails on its prototype that returns the details of the book. Create an instance of Book and call the method.
 
 ## 6. Check If Object Inherits from Another Object:
