@@ -1,0 +1,19 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox{
+    width: 400px;
+    height: 500px;
+}
+.convert{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    color: purple;
+    height: 50px;
+    width: 100px;
+    background-color:palegreen;
+}

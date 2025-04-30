@@ -42,8 +42,10 @@ function BlockScope(){
 
 
 ### 1. Prototype Chain Question:
-## Q: Create a simple object Person with a method greet. Then create an object Student that inherits from Person and has its own method study. Demonstrate prototype inheritance.
+## Q: Create a simple object **Person** with a method **greet**. Then create an object **Student** that inherits from Person and has its own method study. Demonstrate prototype inheritance.
+``
 
+``
 ### 2. Changing Prototype:
 ## Q: Write a program that creates a constructor function Car with a method startEngine. Change the prototype of Car to add a new method stopEngine. Demonstrate how the prototype works by calling the stopEngine method on an instance of Car.
 

@@ -164,5 +164,151 @@ samsung.insertSim(bsnl);
 console.log(myMobileShop.addmobile(samsung));
 
 
+//* Create a simple object **Person** with a method **greet**. Then create an object **Student** that inherits from Person and has its own method study. Demonstrate prototype inheritance.
+
+
+function Person(name){
+ this.name = name;
+ console.log(name + "1");
+ 
+}
+
+Person.prototype.greet = function (name, subject){
+    Person.call(this,name);
+    this.subject = subject;
+}
+
+
+if(!Array.prototype.mymap){
+    Array.prototype.mymap = function (usefn){
+        const result = []
+        for(let i=0; i<this.length; i++){
+          const newvalue =  usefn(this[i],i)
+          result.push(newvalue)
+        }
+        return result
+    }
+}
+
+
+let arr = [8,8,9,4,5]
+
+const double = arr.mymap((e)=> e *3)
+console.log(double);
+
+if(!Array.prototype.myfilter){
+    Array.prototype.myfilter = function (callback){
+        const result = []
+        for (let i = 0; i < this.length; i++) {
+            if(callback(this[i])){
+                result.push(this[i])
+                console.log(result);  
+            }
+        }
+     return result
+    }
+}
+
+
+const primenumber = arr.myfilter((e)=> e % 3 === 0)
+console.log(primenumber);
+console.log(arr);
+
+
+
+
+
+
+
+if (!window.fetch) {
+    window.fetch = function (url, options = {}) {
+      return new Promise((resolve, reject) => {
+        const xhr = new XMLHttpRequest();
+  
+        xhr.open(options.method || 'GET', url, true);
+  
+        // Set headers
+        if (options.headers) {
+          for (let key in options.headers) {
+            xhr.setRequestHeader(key, options.headers[key]);
+          }
+        }
+  
+        xhr.onload = function () {
+          const response = {
+            ok: xhr.status >= 200 && xhr.status < 300,
+            status: xhr.status,
+            statusText: xhr.statusText,
+            url: xhr.responseURL,
+            text: () => Promise.resolve(xhr.responseText),
+            json: () => Promise.resolve(JSON.parse(xhr.responseText))
+          };
+          resolve(response);
+        };
+  
+        xhr.onerror = function () {
+          reject(new TypeError('Network request failed'));
+        };
+  
+        xhr.send(options.body || null);
+      });
+    };
+  }
+
+
+  //* Q1. Create an object for a mobile phone with properties: brand, model, price.
+        const mobile = {
+            brand : "Samsung",
+            model : "s21",
+            price : 120000
+        }
+  //* Q2. Add a new property: "warranty" = "1 year".
+        mobile.warranty = "1"
+        const warranty = {...mobile, warranty:"1"}
+        console.log(warranty);
+  //* Q3. Delete the "price" property.
+  delete mobile.price
+
+
+  let weather = ["rainy", "sunny", "cloudy"]
+
+  for(let i = 0; i<weather.length; i++){
+    if(weather[i] === "rainy"){
+        return "Today is rainy day☔"
+    }else if(weather[i] === "sunny"){
+        return `today is ${weather}, so enjoy 😎`
+    }else if (weather[i]=== "cloudy"){
+        return `tody is cloudy day 😶‍🌫️`
+    }
+  }
+
+
+  // Array of students
+const students = [
+    { name: "Amit", marks: 78 },
+    { name: "Sara", marks: 88 },
+    { name: "Ravi", marks: 45 },
+  ];
+  
+  // Q: Filter students who passed (marks >= 50)
+  for(let i=0;i<students.length;i++){
+    
+  }
+  // Q: Return an array of names only
+  // Q: Calculate average marks
+  
+
+  let numberOFGest = 4
+
+  let pizzaSize = ["small","medium","large"];
+//   small<=2
+// medium<=5
+//large
+
+function divedePizza(numberOfPeouple){
+        if(numberOfPeouple <=2){
+            return `dont west money buy small size pizza `
+        }
+}
 
 
