@@ -111,3 +111,12 @@ teaCopy.greentea.cup.one =4
 
 const newObj = new Object(myTeas)
 console.log(newObj);
+
+
+
+
+function reverse(str){
+    for (let i = 0; i < str.length-1; i++) {
+        
+    }
+}

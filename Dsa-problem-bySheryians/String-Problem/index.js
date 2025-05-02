@@ -152,3 +152,25 @@ function palimdromStr(str){
   }
   return 
 }
+
+
+
+function StrCount(str){
+    let freqArr =  new Array(123).fill(0);
+    for (let i = 0; i < str.length; i++) {
+     let ascciValue = str.charCodeAt(i);
+     freqArr[ascciValue] = freqArr[ascciValue]+1
+    }
+   
+    for(let i=0; i<freqArr.length; i++){
+        if(freqArr[i]>0){
+            return (String.fromCharCode(i)+"=>"+freqArr[i])
+        }
+    }
+    return freqArr
+}
+
+console.log(StrCount("absbdssklsddsklnfv"));
+
+
+
